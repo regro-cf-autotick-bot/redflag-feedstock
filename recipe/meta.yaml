@@ -1,5 +1,5 @@
 {% set name = "redflag" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/redflag-{{ version }}.tar.gz
-  sha256: 90decbab4373856a0c5bd022e74c60adcd608701dea76020ba248fa827fb2820
+  sha256: 5af1eda738f49e6a5f27e0fb4bf56ace686a970b575988643bb8759bdae3b476
 
 build:
   noarch: python
